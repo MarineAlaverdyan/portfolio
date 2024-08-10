@@ -35,12 +35,21 @@ const AboutMePage = () => {
           as a developer, taking on new challenges and contributing to exciting web projects.
         </p>
         <div className='statistics'>
-          {aboutData.map((item) => (
-            <div key={item.id} className='stat-item'>
-              <p>{item.num}</p>
-              <p>{item.title}</p>
-            </div>
-          ))}
+
+          <div className='stat-item'>
+            <p>3+</p>
+            <p>Courses</p>
+          </div>
+          <div className='stat-item'>
+            <p>20+</p>
+            <p>Projects</p>
+          </div> <div className='stat-item'>
+            <p>7+</p>
+            <p>Tools</p>
+          </div> <div className='stat-item'>
+            <p>Education</p>
+            <p>SmartCode</p>
+          </div>
         </div>
       </div>
     </div>

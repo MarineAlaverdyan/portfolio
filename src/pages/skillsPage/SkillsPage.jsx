@@ -28,16 +28,71 @@ const SkillsPage = () => {
           <h1>My Skills</h1>
         </div>
         <div className="skillsBox">
-          {skillData.map((skill) => (
-            <div key={skill.id} className='skill'>
-              <i className={skill.i}></i>
-              {skill.id === 6 && <SiRedux className='redux' />}
-              <p>{skill.title}</p>
-              <div className="progress-bar">
-                <span style={{ width: `${skill.progress}%` }}>{skill.progress}%</span>
+
+          <div className='skill'>
+          <i class="fa-brands fa-html5"></i>
+          <p>HTML</p>
+          <div className="progress-bar">
+                <span style={{ width: `80%` }}>80%</span>
               </div>
-            </div>
-          ))}
+          </div>
+
+          <div className='skill'>
+          <i class="fa-brands fa-css3-alt"></i>
+          <p>CSS</p>
+          <div className="progress-bar">
+                <span style={{ width: `80%` }}>80%</span>
+              </div>
+          </div>
+
+          <div className='skill'>
+          <i class="fa-brands fa-sass"></i>
+          <p>SASS</p>
+          <div className="progress-bar">
+                <span style={{ width: `80%` }}>80%</span>
+              </div>
+          </div>
+
+          <div className='skill'>
+          <i class="fa-brands fa-js"></i>
+          <p>JavaScript</p>
+          <div className="progress-bar">
+                <span style={{ width: `90%` }}>90%</span>
+              </div>
+          </div>
+
+          <div className='skill'>
+          <i class="fa-brands fa-react"></i>
+          <p>React</p>
+          <div className="progress-bar">
+                <span style={{ width: `90%` }}>90%</span>
+              </div>
+          </div>
+
+          <div className='skill'>
+          <SiRedux className='redux' />
+          <p>Redux</p>
+          <div className="progress-bar">
+                <span style={{ width: `90%` }}>90%</span>
+              </div>
+          </div>
+
+          <div className='skill'>
+          <i class="fa-brands fa-git"></i>
+          <p>Git</p>
+          <div className="progress-bar">
+                <span style={{ width: `50%` }}>50%</span>
+              </div>
+          </div>
+
+          <div className='skill'>
+          <i class="fa-brands fa-github"></i>
+          <p>GitHub</p>
+          <div className="progress-bar">
+                <span style={{ width: `50%` }}>50%</span>
+              </div>
+          </div>
+
         </div>
       </div>
     </section>
