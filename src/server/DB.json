@@ -1,0 +1,73 @@
+{
+    "aboutMe": [
+        {
+            "id": 1,
+            "num": "3+",
+            "title": "Courses"
+        },
+        {
+            "id": 2,
+            "num": "20+",
+            "title": "Projects"
+        },
+        {
+            "id": 3,
+            "num": "7+",
+            "title": "Tools"
+        },
+        {
+            "id": 4,
+            "num": "Education",
+            "title": "SmartCode"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "i": "fa-brands fa-html5",
+            "title": "HTML",
+            "progress": "70"
+        },
+        {
+            "id": 2,
+            "i": "fa-brands fa-css3-alt",
+            "title": "CSS",
+            "progress": "70"
+        },
+        {
+            "id": 3,
+            "i": "fa-brands fa-sass",
+            "title": "SASS",
+            "progress": "70"
+        },
+        {
+            "id": 4,
+            "i": "fa-brands fa-js",
+            "title": "JavaScript",
+            "progress": "90"
+        },
+        {
+            "id": 5,
+            "i": "fa-brands fa-react",
+            "title": "React",
+            "progress": "80"
+        },
+        {
+            "id": 6,
+            "title": "Redux",
+            "progress": "80"
+        },
+        {
+            "id": 7,
+            "i": "fa-brands fa-git",
+            "title": "Git",
+            "progress": "50"
+        },
+        {
+            "id": 7,
+            "i": "fa-brands fa-github",
+            "title": "GitHub",
+            "progress": "50"
+        }
+    ]
+}

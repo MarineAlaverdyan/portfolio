@@ -1,0 +1,51 @@
+/* Layout.css */
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+    padding-top: 70px; /* Adjust this value based on the height of your NavigationMenu */
+    padding-bottom: 50px; /* Adjust this value based on the height of your Footer */
+  }
+  
+  footer {
+    background-color: #101820;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+    position: relative; /* Make sure footer is positioned relatively */
+    margin-top: auto; /* Push the footer to the bottom */
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  footer h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    animation: slideUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
