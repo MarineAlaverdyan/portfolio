@@ -30,7 +30,7 @@ const HomePage = () => {
           <h3>Hello, <span className='typer'></span></h3>
           <h4>Programmer</h4>
           <p>Address: Armenia</p>
-          <p>Email: alaverdyanmarine@gmail.com</p>
+          <p>Email: alaverdyanmarine14@gmail.com</p>
           <p>I'm a Junior FrontEnd developer</p>
         </div>
       </div>
