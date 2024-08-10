@@ -40,10 +40,7 @@ const AboutMePage = () => {
             <p>3+</p>
             <p>Courses</p>
           </div>
-          <div className='stat-item'>
-            <p>20+</p>
-            <p>Projects</p>
-          </div> <div className='stat-item'>
+           <div className='stat-item'>
             <p>7+</p>
             <p>Tools</p>
           </div> <div className='stat-item'>
