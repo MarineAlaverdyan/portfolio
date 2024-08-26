@@ -29,10 +29,10 @@ const AboutMePage = () => {
       <div className='aboutSection'>
         <h1>About Me</h1>
         <p className='aboutMeText'>
-          Hi, I'm Marine, a junior Front-End developer with a solid foundation in web technologies. <br />
-          I recently completed a comprehensive Front-End development course at SmartCode, where I honed my <br />
-          skills in HTML, CSS, SASS, JavaScript, React, and Redux. I'm eager to apply my skills and continue growing <br />
-          as a developer, taking on new challenges and contributing to exciting web projects.
+          I'm a Junior Frontend Developer with experience in HTML, CSS,
+          SASS, JavaScript, React, and Redux. During my internship, I
+          developed a website for a mobile store, focusing on a
+          responsive and user-friendly design.
         </p>
         <div className='statistics'>
 
@@ -40,7 +40,7 @@ const AboutMePage = () => {
             <p>3+</p>
             <p>Courses</p>
           </div>
-           <div className='stat-item'>
+          <div className='stat-item'>
             <p>7+</p>
             <p>Tools</p>
           </div> <div className='stat-item'>
