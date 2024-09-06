@@ -37,7 +37,7 @@ const AboutMePage = () => {
         <div className='statistics'>
 
           <div className='stat-item'>
-            <p>4+</p>
+            <p>3+</p>
             <p>Courses</p>
           </div>
           <div className='stat-item'>
