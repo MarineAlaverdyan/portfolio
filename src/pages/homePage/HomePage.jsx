@@ -32,6 +32,7 @@ const HomePage = () => {
           <p>Address: Armenia</p>
           <p>Email: alaverdyanmarine14@gmail.com</p>
           <p>I'm a Junior FrontEnd developer</p>
+          <input type="file" />
         </div>
       </div>
       <AboutMePage />
