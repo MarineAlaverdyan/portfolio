@@ -12,7 +12,7 @@
         },
         {
             "id": 3,
-            "num": "8+",
+            "num": "10+",
             "title": "Tools"
         },
         {
@@ -63,7 +63,7 @@
         },
         {
             "id": 6,
-            "img": " <SiReduxs />",
+            "img": " <SiReduxs/>",
             "title": "Redux",
             "progress": 92
         },
