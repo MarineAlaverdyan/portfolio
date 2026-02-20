@@ -3,23 +3,40 @@ import me from './images/me.jpg';
 import './aboutMePage.css';
 
 const AboutMePage = () => {
-  const [aboutData, setAboutData] = useState([]);
+  const aboutData = [
+        {
+            "id": 1,
+            "num": "5+",
+            "title": "Courses "
+        },
+        {
+            "id": 2,
+            "num": "30+",
+            "title": "Project"
+        },
+        {
+            "id": 3,
+            "num": "10+",
+            "title": "Tools"
+        },
+        {
+            "id": 4,
+            "num": "SmartCode",
+            "title": "Education"
+        },
+         {
+            "id": 5,
+            "num": "42 Yerevan",
+            "title": "Education"
+        },
+        {
+            "id": 6,
+            "num": "Self-Learning"
+    }
+    
+  ];
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('http://localhost:3005/aboutMe');
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const data = await response.json();
-        setAboutData(data);
-      } catch (error) {
-        console.error('Fetch error:', error);
-      }
-    };
-    fetchData();
-  }, []);
+ 
 
   return (
     <div className='aboutMe'>

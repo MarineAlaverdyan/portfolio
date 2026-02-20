@@ -3,24 +3,67 @@ import "./SkillsPageCss.css";
 import { SiRedux } from "react-icons/si";
 
 const SkillsPage = () => {
-  const [skillData, setSkillData] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("http://localhost:3005/skills");
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
+  const skillData= [
+     {
+            "id": 1,
+            "i": "fa-brands fa-html5",
+            "title": "HTML",
+            "progress": 85
+        },
+        {
+            "id": 2,
+            "i": "fa-brands fa-css3-alt",
+            "title": "CSS",
+            "progress": 85
+        },
+        {
+            "id": 3,
+            "i": "fa-brands fa-sass",
+            "title": "SASS",
+            "progress": 85
+        },
+        {
+            "id": 4,
+            "i": "fa-brands fa-js",
+            "title": "JavaScript",
+            "progress": 90
+        },
+        {
+            "id": 5,
+            "i": "fa-brands fa-react",
+            "title": "React  ",
+            "progress": 92
+        },
+        {
+            "id": 6,
+            "img": " <SiReduxs/>",
+            "title": "Redux",
+            "progress": 92
+        },
+        {
+            "id": 7,
+            "i": "fa-brands fa-github",
+            "title": "GitHub",
+            "progress": 50
+        },
+         {
+            "id": 8,
+            "i": "fa-solid fa-c",
+            "title": "C Programming"
+        },
+         {
+            "id": 9,
+            "i": "/images/after-effects.png",
+            "title": "After Effect"
+        },
+         {
+            "id": 10,
+            "i": "/images/icons8-blender-3d-50.png",
+            "title": "Blender"
         }
-        const data = await response.json();
-        setSkillData(data);
-      } catch (error) {
-        console.error('Fetch error:', error);
-      }
-    };
-    fetchData();
-  }, []);
+  ];
 
+ 
   return (
     <section id="skills">
       <div className="container">
